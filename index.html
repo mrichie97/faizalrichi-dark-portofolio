@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Faizal Richi Candra - Portfolio</title>
+    
+    <link rel="icon" href="assets/img/profile.png" type="image/png">
+
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+<body>
+
+    <div class="tech-background">
+        <div class="tech-grid"></div>
+        <canvas id="cursor-canvas"></canvas>
+    </div>
+
+    <nav class="navbar">
+        <div class="container nav-container">
+            <a href="#home" class="logo">Richi<span class="dot">.</span></a>
+            <ul class="nav-links">
+                <li><a href="#home" class="nav-item active">Home</a></li>
+                <li><a href="#about" class="nav-item">About</a></li>
+                <li><a href="#skills" class="nav-item">Skills</a></li>
+                <li><a href="#projects" class="nav-item">Certificates</a></li>
+                <li><a href="#contact" class="nav-item">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </nav>
+
+    <section id="home" class="hero">
+        <div class="container hero-container">
+            <div class="hero-text" data-aos="fade-right">
+                <p class="greeting">Hello, I'm <span class="highlight">Richi</span></p>
+                <h1>Faizal Richi Candra</h1>
+                
+                <h2 class="roles">
+                    <span class="static-txt">I am a</span> 
+                    <span class="typing-text"></span>
+                </h2>
+                
+                <p class="bio-short">
+                    Building efficient technology solutions and empowering future digital talents in Bojonegoro.
+                </p>
+                <div class="cta-buttons">
+                    <a href="#contact" class="btn btn-primary">Got a project?</a>
+                    <a href="#about" class="btn btn-primary btn-glow">More about me</a>
+                </div>
+                <div class="stats-row">
+                    <div class="stat-card" data-aos="zoom-in" data-aos-delay="100">
+                        <h3>10+</h3>
+                        <p>Completed Projects</p>
+                    </div>
+                    <div class="stat-card" data-aos="zoom-in" data-aos-delay="200">
+                        <h3>10+</h3>
+                        <p>Happy Clients</p>
+                    </div>
+                    <div class="stat-card" data-aos="zoom-in" data-aos-delay="300">
+                        <h3>2+</h3>
+                        <p>Years Experience</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="hero-image-container" data-aos="zoom-in">
+                <div class="main-circle"></div>
+                <div class="orbit-container">
+                    <div class="bubble b1"><i class="fas fa-code"></i></div>
+                    <div class="bubble b2"><i class="fas fa-cogs"></i></div>
+                    <div class="bubble b3"><i class="fas fa-brain"></i></div>
+                    <div class="bubble b4"><i class="fas fa-chalkboard-teacher"></i></div>
+                </div>
+                <div class="image-wrapper">
+                    <img src="assets/img/profile.png" alt="Faizal Richi Candra">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <div class="container about-container">
+            <div class="section-title" data-aos="fade-up">
+                <h2>About Me</h2>
+            </div>
+            <div class="about-grid">
+                <div class="about-text" data-aos="fade-right">
+                    <p>
+                        Based in <strong>Bojonegoro</strong>, I am a dedicated <strong>Software Engineer</strong> and <strong>ICT Mentor</strong>. With a strong foundation in Information Systems, I specialize in crafting robust web solutions while simultaneously empowering the next generation of digital innovators.
+                    </p>
+                    <p>
+                        Currently, I balance my professional role between developing full-stack web applications and teaching Informatics to middle and high school students (MTs & MA). This unique dual role sharpens my technical expertise in <strong>PHP, JavaScript, and GenAI</strong> while enhancing my ability to communicate complex concepts effectively.
+                    </p>
+                    <p>
+                        I am committed to continuous professional growth, actively participating in bootcamps and certifications to ensure my skills remain at the forefront of the industry.
+                    </p>
+                </div>
+                <div class="about-education" data-aos="fade-left">
+                    <div class="edu-card">
+                        <div class="edu-icon"><i class="fas fa-graduation-cap"></i></div>
+                        <div class="edu-content">
+                            <h3>Education Background</h3>
+                            <h4>Bachelor of Information Systems</h4>
+                            <p class="university">Universitas Terbuka</p>
+                            <p class="edu-desc">Focus on Software Engineering, Database Management, and System Analysis.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="skills">
+        <div class="container">
+            <div class="section-title" data-aos="fade-up">
+                <h2>Technical Skills</h2>
+            </div>
+            <div class="skills-grid">
+                <div class="skill-card" data-aos="flip-up" data-aos-delay="100">
+                    <div class="icon-box"><i class="fas fa-server"></i></div>
+                    <h3>Backend & DB</h3>
+                    <p>PHP, MySQL, Database Management</p>
+                </div>
+                <div class="skill-card" data-aos="flip-up" data-aos-delay="200">
+                    <div class="icon-box"><i class="fas fa-code"></i></div>
+                    <h3>Frontend</h3>
+                    <p>JavaScript, Bootstrap, Tailwind CSS</p>
+                </div>
+                <div class="skill-card" data-aos="flip-up" data-aos-delay="300">
+                    <div class="icon-box"><i class="fas fa-layer-group"></i></div>
+                    <h3>Additional</h3>
+                    <p>Flutter, Basic Cybersecurity, GenAI Integration</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="certificates">
+        <div class="container">
+            <div class="section-title" data-aos="fade-up">
+                <h2>Certifications</h2>
+                <p>Selected Professional Development</p>
+            </div>
+            
+            <div class="cert-grid">
+                <div class="cert-card" data-aos="fade-up">
+                    <div class="cert-img-box">
+                        <img src="assets/certificate/cert1.jpg" alt="RevoU" onerror="this.src='https://placehold.co/600x400/1e293b/FFF?text=Certificate'">
+                    </div>
+                    <div class="cert-info">
+                        <h4>Intro to Software Engineering</h4>
+                        <span class="issuer">RevoU (2026)</span>
+                    </div>
+                </div>
+                <div class="cert-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="cert-img-box">
+                        <img src="assets/certificate/cert2.jpg" alt="Hacktiv8" onerror="this.src='https://placehold.co/600x400/1e293b/FFF?text=Certificate'">
+                    </div>
+                    <div class="cert-info">
+                        <h4>LLM-Based Tools & Gemini API Integration for Data Scientist</h4>
+                        <span class="issuer">Hacktiv8 Indonesia (2026)</span>
+                    </div>
+                </div>
+                <div class="cert-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="cert-img-box">
+                        <img src="assets/certificate/cert3.jpg" alt="dibimbing.id" onerror="this.src='https://placehold.co/600x400/1e293b/FFF?text=Certificate'">
+                    </div>
+                    <div class="cert-info">
+                        <h4>DSF 46 Faculty of IT: Back End</h4>
+                        <span class="issuer">dibimbing.id (2025)</span>
+                    </div>
+                </div>
+                <div class="cert-card" data-aos="fade-up">
+                    <div class="cert-img-box">
+                        <img src="assets/certificate/cert4.jpg" alt="Google" onerror="this.src='https://placehold.co/600x400/1e293b/FFF?text=Certificate'">
+                    </div>
+                    <div class="cert-info">
+                        <h4>Gemini Certified Educator</h4>
+                        <span class="issuer">Google (2025 - 2028)</span>
+                    </div>
+                </div>
+                <div class="cert-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="cert-img-box">
+                        <img src="assets/certificate/cert5.jpg" alt="UiPath" onerror="this.src='https://placehold.co/600x400/1e293b/FFF?text=Certificate'">
+                    </div>
+                    <div class="cert-info">
+                        <h4>UiPath Citizen Developer (Indosat IDCamp)</h4>
+                        <span class="issuer">UiPath (2025)</span>
+                    </div>
+                </div>
+                <div class="cert-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="cert-img-box">
+                        <img src="assets/certificate/cert6.jpg" alt="Cisco" onerror="this.src='https://placehold.co/600x400/1e293b/FFF?text=Certificate'">
+                    </div>
+                    <div class="cert-info">
+                        <h4>Introduction to Cybersecurity</h4>
+                        <span class="issuer">Cisco Networking Academy (2025)</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="view-more-container" data-aos="fade-up">
+                <a href="https://www.linkedin.com/in/faizalrichic/details/certifications/" target="_blank" class="btn btn-primary btn-glow">
+                    View All Certifications <i class="fas fa-arrow-right" style="margin-left: 8px;"></i>
+                </a>
+            </div>
+
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <div class="container contact-container">
+            <div class="section-title" data-aos="zoom-in">
+                <h2>Let's Connect</h2>
+                <p>Located in Bojonegoro, East Java, Indonesia</p>
+            </div>
+            <div class="social-links" data-aos="fade-up">
+                <a href="https://id.linkedin.com/in/faizalrichic" target="_blank" class="social-btn linkedin">
+                    <i class="fab fa-linkedin-in"></i>
+                    <span>LinkedIn</span>
+                </a>
+                <a href="https://github.com/mrichie97" target="_blank" class="social-btn github">
+                    <i class="fab fa-github"></i>
+                    <span>GitHub</span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>Made with <i class="fas fa-heart"></i> by <strong>Faizal Richi Candra</strong></p>
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script src="assets/js/script.js"></script>
+</body>
+</html>
